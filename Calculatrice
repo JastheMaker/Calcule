@@ -1,0 +1,56 @@
+#include <iostream>
+#include <vector>
+
+
+using namespace std;
+int add(int a, int b){
+    retur a + b;
+}
+
+
+int main() {
+int choix;
+do {
+cout << "menu";
+cout << "addition (1)\n";
+cout << "soustraction (2)\n";
+cout << "division (3)\n";
+cout << "multiplication (4)\n";
+cout << "sortir (0)";
+
+
+cout << "choix: ";
+cin >> choix;
+
+
+} while (choix < 0 || choix > 4);
+
+cout << "saisir les 2 chiffres!"
+    cin>>a;
+    cint>>b;
+
+
+
+
+switch (choix) {
+case 1:
+cout << add(a,b);
+break;
+case 2:
+cout << "2";
+break;
+case 3:
+cout << "3";
+break;
+case 4:
+cout << "4";
+break;
+case 0:
+cout << " merci!";
+break;
+default:
+cout << "default";
+}
+
+return 0;
+}
